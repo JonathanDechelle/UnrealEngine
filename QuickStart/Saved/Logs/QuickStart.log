@@ -1,0 +1,459 @@
+﻿Log file open, 04/23/17 09:54:50
+LogInit:Display: Running engine for game: QuickStart
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2017.04.23-13.54.50:132][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2017.04.23-13.54.50:200][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2017.04.23-13.54.50:227][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2017.04.23-13.54.50:239][  0]LogInit: Object subsystem initialized
+[2017.04.23-13.54.50:246][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.23-13.54.50:246][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.23-13.54.50:255][  0]LogInit: Computer: PC_JOYVAX
+[2017.04.23-13.54.50:255][  0]LogInit: User: Joyvax
+[2017.04.23-13.54.50:255][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.04.23-13.54.50:255][  0]LogInit: High frequency timer resolution =2.338347 MHz
+[2017.04.23-13.54.50:255][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2017.04.23-13.54.50:256][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.23-13.54.50:256][  0]LogMemory: Process Physical Memory: 48.10 MB used, 48.10 MB peak
+[2017.04.23-13.54.50:256][  0]LogMemory: Process Virtual Memory: 25.07 MB used, 25.07 MB peak
+[2017.04.23-13.54.50:256][  0]LogMemory: Physical Memory: 5539.93 MB used, 16267.06 MB total
+[2017.04.23-13.54.50:256][  0]LogMemory: Virtual Memory: 312.78 MB used, 134217728.00 MB total
+[2017.04.23-13.54.50:300][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 850M  (Feature Level 11_0)
+[2017.04.23-13.54.50:300][  0]LogD3D11RHI: Adapter has 4037MB of dedicated video memory, 0MB of dedicated system memory, and 8133MB of shared system memory, 1 output[s]
+[2017.04.23-13.54.50:310][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2017.04.23-13.54.50:310][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2017.04.23-13.54.50:312][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2017.04.23-13.54.50:312][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8133MB of shared system memory, 0 output[s]
+[2017.04.23-13.54.50:312][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2017.04.23-13.54.50:319][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.23-13.54.50:339][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.23-13.54.50:457][  0]LogTextLocalizationManager: The requested culture ('en_CA') has no localization data; parent culture's ('en') localization data will be used.
+[2017.04.23-13.54.50:718][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2017.04.23-13.54.54:391][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.23-13.54.55:333][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.23-13.54.55:473][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.23-13.54.55:534][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/Joyvax/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2017.04.23-13.54.55:534][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joyvax/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2017.04.23-13.54.55:534][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/UnrealEngine/QuickStart/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.23-13.54.55:534][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.23-13.54.55:759][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.23-13.54.55:773][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joyvax/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.23-13.54.56:392][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.04.23-13.54.56:392][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.23-13.54.57:141][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.23-13.54.57:363][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2017.04.23-13.54.59:806][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.23-13.55.00:261][  0]SourceControl: Info Source control is disabled
+[2017.04.23-13.55.00:261][  0]SourceControl: Info Source control is disabled
+[2017.04.23-13.55.00:261][  0]SourceControl: Info Source control is disabled
+[2017.04.23-13.55.00:261][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2017.04.23-13.55.00:261][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2017.04.23-13.55.00:288][  0]SourceControl: Info Source control is disabled
+[2017.04.23-13.55.00:762][  0]LogObj: 24235 objects as part of root set at end of initial load.
+[2017.04.23-13.55.00:762][  0]LogUObjectAllocator: 5138296 out of 0 bytes used by permanent object pool.
+[2017.04.23-13.55.00:906][  0]LogEngine: Initializing Engine...
+[2017.04.23-13.55.03:190][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-13.55.03:207][  0]LogInit: FAudioDevice initialized.
+[2017.04.23-13.55.03:300][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.04.23-13.55.03:333][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Joyvax/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2017.04.23-13.55.03:337][  0]LogInit: Texture streaming: Enabled
+[2017.04.23-13.55.03:523][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2017.04.23-13.55.03:523][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2017.04.23-13.55.03:523][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2017.04.23-13.55.03:524][  0]LogAnalytics: SetUserId d8fcfb86447b41de9c9c91aa384bc4db|195574858986403cbfe5f5ec8878ab99|5b89048f-1ad0-4dc7-9947-ff9dc277e1ff
+[2017.04.23-13.55.03:524][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2017.04.23-13.55.03:569][  0]LogInit: Transaction tracking system initialized
+[2017.04.23-13.55.04:015][  0]BlueprintLog: New page: Editor Load
+[2017.04.23-13.55.04:097][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2017.04.23-13.55.04:098][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2017.04.23-13.55.05:329][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.23-13.55.05:995][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.23-13.55.14:042][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2017.04.23-13.55.14:043][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2017.04.23-13.55.14:059][  0]LogConsoleResponse:Display: 
+[2017.04.23-13.55.14:400][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2017.04.23-13.55.14:833][  0]SourceControl: Info Source control is disabled
+[2017.04.23-13.55.14:834][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2017.04.23-13.55.14:834][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2017.04.23-13.55.14:834][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.7/FeaturePacks/StarterContent.upack)
+[2017.04.23-13.55.20:961][  0]LogPackFactory: Content/StarterContent/Architecture/Floor_400x400.uasset (48141) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.04.23-13.55.20:963][  0]LogPackFactory: Content/StarterContent/Architecture/Pillar_50x500.uasset (65452) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2017.04.23-13.55.20:964][  0]LogPackFactory: Content/StarterContent/Architecture/SM_AssetPlatform.uasset (452977) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2017.04.23-13.55.20:965][  0]LogPackFactory: Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset (441) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset
+[2017.04.23-13.55.20:966][  0]LogPackFactory: Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset (439) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset
+[2017.04.23-13.55.20:967][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x200.uasset (42169) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2017.04.23-13.55.20:968][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x300.uasset (41804) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2017.04.23-13.55.20:969][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x400.uasset (43426) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2017.04.23-13.55.20:970][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_500x500.uasset (57909) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2017.04.23-13.55.20:971][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x300.uasset (52430) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2017.04.23-13.55.20:972][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x400.uasset (53246) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2017.04.23-13.55.20:974][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x300.uasset (53709) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2017.04.23-13.55.20:975][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x400.uasset (54778) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2017.04.23-13.55.20:977][  0]LogPackFactory: Content/StarterContent/Audio/Collapse01.uasset (348532) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Collapse01.uasset
+[2017.04.23-13.55.20:978][  0]LogPackFactory: Content/StarterContent/Audio/Collapse02.uasset (346701) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Collapse02.uasset
+[2017.04.23-13.55.20:979][  0]LogPackFactory: Content/StarterContent/Audio/Collapse_Cue.uasset (6113) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2017.04.23-13.55.20:981][  0]LogPackFactory: Content/StarterContent/Audio/Explosion01.uasset (282440) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Explosion01.uasset
+[2017.04.23-13.55.20:982][  0]LogPackFactory: Content/StarterContent/Audio/Explosion02.uasset (289195) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Explosion02.uasset
+[2017.04.23-13.55.20:983][  0]LogPackFactory: Content/StarterContent/Audio/Explosion_Cue.uasset (7657) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2017.04.23-13.55.21:050][  0]LogPackFactory: Content/StarterContent/Audio/Fire01.uasset (549696) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Fire01.uasset
+[2017.04.23-13.55.21:051][  0]LogPackFactory: Content/StarterContent/Audio/Fire01_Cue.uasset (3894) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2017.04.23-13.55.21:053][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01.uasset (796274) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2017.04.23-13.55.21:055][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset (3908) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2017.04.23-13.55.21:056][  0]LogPackFactory: Content/StarterContent/Audio/Light01.uasset (364532) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Light01.uasset
+[2017.04.23-13.55.21:058][  0]LogPackFactory: Content/StarterContent/Audio/Light01_Cue.uasset (3852) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Light01_Cue.uasset
+[2017.04.23-13.55.21:060][  0]LogPackFactory: Content/StarterContent/Audio/Light02.uasset (308156) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Light02.uasset
+[2017.04.23-13.55.21:061][  0]LogPackFactory: Content/StarterContent/Audio/Light02_Cue.uasset (3852) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Light02_Cue.uasset
+[2017.04.23-13.55.21:062][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01.uasset (476002) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Smoke01.uasset
+[2017.04.23-13.55.21:064][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01_Cue.uasset (3872) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2017.04.23-13.55.21:065][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Background_Cue.uasset (9874) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2017.04.23-13.55.21:066][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Birds01.uasset (2689459) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2017.04.23-13.55.21:070][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music01.uasset (8445372) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Starter_Music01.uasset
+[2017.04.23-13.55.21:079][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music_Cue.uasset (3390) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2017.04.23-13.55.21:080][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind05.uasset (2312702) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2017.04.23-13.55.21:084][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind06.uasset (2195539) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2017.04.23-13.55.21:088][  0]LogPackFactory: Content/StarterContent/Audio/Steam01.uasset (819028) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Steam01.uasset
+[2017.04.23-13.55.21:089][  0]LogPackFactory: Content/StarterContent/Audio/Steam01_Cue.uasset (3900) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2017.04.23-13.55.21:091][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset (1011) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2017.04.23-13.55.21:093][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset (44857) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2017.04.23-13.55.21:094][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset (67062) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2017.04.23-13.55.21:095][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset (100458) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2017.04.23-13.55.21:096][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset (75669) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2017.04.23-13.55.21:098][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/Skybox.uasset (644855) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2017.04.23-13.55.21:100][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset (520136) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2017.04.23-13.55.21:101][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset (1506) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2017.04.23-13.55.21:103][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset (66613) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.04.23-13.55.21:104][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (8324) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.04.23-13.55.21:105][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset (8332) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.04.23-13.55.21:106][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (8346) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.04.23-13.55.21:108][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (8365) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.04.23-13.55.21:109][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset (8354) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.04.23-13.55.21:111][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset (52866) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.04.23-13.55.21:112][  0]LogPackFactory: Content/StarterContent/Blueprints/BP_LightStudio.uasset (337416) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.04.23-13.55.21:113][  0]LogPackFactory: Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset (72364642) -> G:/UnrealEngine/QuickStart/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2017.04.23-13.55.21:173][  0]LogPackFactory: Content/StarterContent/Maps/Advanced_Lighting.umap (223408) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2017.04.23-13.55.21:174][  0]LogPackFactory: Content/StarterContent/Maps/Minimal_Default.umap (2154106) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.04.23-13.55.21:177][  0]LogPackFactory: Content/StarterContent/Maps/StarterMap.umap (16371806) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Maps/StarterMap.umap
+[2017.04.23-13.55.21:192][  0]LogPackFactory: Content/StarterContent/Materials/M_AssetPlatform.uasset (68672) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2017.04.23-13.55.21:194][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Floor.uasset (65286) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2017.04.23-13.55.21:195][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Wall.uasset (55455) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2017.04.23-13.55.21:196][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset (100568) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2017.04.23-13.55.21:197][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_New.uasset (130734) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2017.04.23-13.55.21:199][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Old.uasset (123390) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2017.04.23-13.55.21:227][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset (122803) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2017.04.23-13.55.21:228][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset (90915) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2017.04.23-13.55.21:229][  0]LogPackFactory: Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset (91562) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2017.04.23-13.55.21:231][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset (122364) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2017.04.23-13.55.21:232][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Rough.uasset (199387) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2017.04.23-13.55.21:233][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset (206806) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2017.04.23-13.55.21:239][  0]LogPackFactory: Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset (85099) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2017.04.23-13.55.21:241][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Grime.uasset (91620) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2017.04.23-13.55.21:242][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Panels.uasset (102285) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2017.04.23-13.55.21:244][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Poured.uasset (104859) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2017.04.23-13.55.21:245][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Tiles.uasset (105831) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2017.04.23-13.55.21:246][  0]LogPackFactory: Content/StarterContent/Materials/M_Glass.uasset (48151) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Glass.uasset
+[2017.04.23-13.55.21:247][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Grass.uasset (95378) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2017.04.23-13.55.21:249][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Gravel.uasset (120447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2017.04.23-13.55.21:250][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Moss.uasset (128000) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2017.04.23-13.55.21:251][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset (79826) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2017.04.23-13.55.21:253][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset (97779) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2017.04.23-13.55.21:254][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Chrome.uasset (79618) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2017.04.23-13.55.21:256][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Copper.uasset (94475) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2017.04.23-13.55.21:257][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Gold.uasset (96084) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2017.04.23-13.55.21:258][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Rust.uasset (109365) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2017.04.23-13.55.21:259][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Steel.uasset (96230) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2017.04.23-13.55.21:261][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Basalt.uasset (121462) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2017.04.23-13.55.21:262][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset (98409) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2017.04.23-13.55.21:264][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Sandstone.uasset (113552) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2017.04.23-13.55.21:414][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Slate.uasset (110874) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2017.04.23-13.55.21:415][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset (98373) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2017.04.23-13.55.21:417][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset (140303) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2017.04.23-13.55.21:418][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (115223) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2017.04.23-13.55.21:419][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Panel.uasset (98003) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2017.04.23-13.55.21:420][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Lake.uasset (96267) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2017.04.23-13.55.21:421][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Ocean.uasset (100717) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2017.04.23-13.55.21:422][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (82816) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2017.04.23-13.55.21:423][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (100628) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2017.04.23-13.55.21:425][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Oak.uasset (107121) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2017.04.23-13.55.21:426][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Pine.uasset (97740) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2017.04.23-13.55.21:427][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Walnut.uasset (93022) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2017.04.23-13.55.21:428][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Burst.uasset (43524) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2017.04.23-13.55.21:431][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset (40952) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2017.04.23-13.55.21:432][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset (62151) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2017.04.23-13.55.21:434][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset (62224) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2017.04.23-13.55.21:435][  0]LogPackFactory: Content/StarterContent/Particles/Materials/m_flare_01.uasset (48172) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2017.04.23-13.55.21:437][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset (38287) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2017.04.23-13.55.21:455][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset (41181) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2017.04.23-13.55.21:459][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_radial_ramp.uasset (41193) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2017.04.23-13.55.21:460][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset (76603) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2017.04.23-13.55.21:462][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Spark.uasset (43678) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2017.04.23-13.55.21:463][  0]LogPackFactory: Content/StarterContent/Particles/P_Ambient_Dust.uasset (43456) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2017.04.23-13.55.21:465][  0]LogPackFactory: Content/StarterContent/Particles/P_Explosion.uasset (280221) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/P_Explosion.uasset
+[2017.04.23-13.55.21:466][  0]LogPackFactory: Content/StarterContent/Particles/P_Fire.uasset (259431) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/P_Fire.uasset
+[2017.04.23-13.55.21:467][  0]LogPackFactory: Content/StarterContent/Particles/P_Smoke.uasset (65670) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/P_Smoke.uasset
+[2017.04.23-13.55.21:468][  0]LogPackFactory: Content/StarterContent/Particles/P_Sparks.uasset (171805) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/P_Sparks.uasset
+[2017.04.23-13.55.21:478][  0]LogPackFactory: Content/StarterContent/Particles/P_Steam_Lit.uasset (117332) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2017.04.23-13.55.21:480][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Bush.uasset (99988) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2017.04.23-13.55.21:481][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Chair.uasset (90187) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2017.04.23-13.55.21:483][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Door.uasset (87249) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_Door.uasset
+[2017.04.23-13.55.21:485][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Frame.uasset (78682) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2017.04.23-13.55.21:487][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Lamp.uasset (90486) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2017.04.23-13.55.21:488][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere.uasset (66766) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2017.04.23-13.55.21:495][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (58832) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2017.04.23-13.55.21:497][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Rock.uasset (114715) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2017.04.23-13.55.21:498][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Shelf.uasset (78255) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2017.04.23-13.55.21:500][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Statue.uasset (72790) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2017.04.23-13.55.21:501][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_StatueGlass.uasset (56436) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2017.04.23-13.55.21:502][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_TableRound.uasset (89531) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2017.04.23-13.55.21:504][  0]LogPackFactory: Content/StarterContent/Props/MaterialSphere.uasset (174533) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/MaterialSphere.uasset
+[2017.04.23-13.55.21:505][  0]LogPackFactory: Content/StarterContent/Props/SM_Bush.uasset (152902) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_Bush.uasset
+[2017.04.23-13.55.21:507][  0]LogPackFactory: Content/StarterContent/Props/SM_Chair.uasset (213058) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_Chair.uasset
+[2017.04.23-13.55.21:508][  0]LogPackFactory: Content/StarterContent/Props/SM_CornerFrame.uasset (104587) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2017.04.23-13.55.21:510][  0]LogPackFactory: Content/StarterContent/Props/SM_Couch.uasset (254658) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_Couch.uasset
+[2017.04.23-13.55.21:518][  0]LogPackFactory: Content/StarterContent/Props/SM_Door.uasset (214917) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_Door.uasset
+[2017.04.23-13.55.21:520][  0]LogPackFactory: Content/StarterContent/Props/SM_DoorFrame.uasset (65546) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2017.04.23-13.55.21:522][  0]LogPackFactory: Content/StarterContent/Props/SM_GlassWindow.uasset (97538) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2017.04.23-13.55.21:525][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Ceiling.uasset (318571) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2017.04.23-13.55.21:527][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Wall.uasset (140246) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2017.04.23-13.55.21:528][  0]LogPackFactory: Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset (2396647) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2017.04.23-13.55.21:531][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame.uasset (127007) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2017.04.23-13.55.21:533][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame300.uasset (124350) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2017.04.23-13.55.21:534][  0]LogPackFactory: Content/StarterContent/Props/SM_Rock.uasset (175516) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_Rock.uasset
+[2017.04.23-13.55.21:536][  0]LogPackFactory: Content/StarterContent/Props/SM_Shelf.uasset (108862) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_Shelf.uasset
+[2017.04.23-13.55.21:537][  0]LogPackFactory: Content/StarterContent/Props/SM_Stairs.uasset (66807) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_Stairs.uasset
+[2017.04.23-13.55.21:538][  0]LogPackFactory: Content/StarterContent/Props/SM_Statue.uasset (537153) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_Statue.uasset
+[2017.04.23-13.55.21:540][  0]LogPackFactory: Content/StarterContent/Props/SM_TableRound.uasset (528732) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_TableRound.uasset
+[2017.04.23-13.55.21:542][  0]LogPackFactory: Content/StarterContent/Props/SM_WindowFrame.uasset (68758) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2017.04.23-13.55.21:544][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cone.uasset (94233) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2017.04.23-13.55.21:545][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cube.uasset (45498) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2017.04.23-13.55.21:546][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cylinder.uasset (109276) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2017.04.23-13.55.21:548][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset (211325) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2017.04.23-13.55.21:549][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe.uasset (78407) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2017.04.23-13.55.21:550][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_180.uasset (193692) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2017.04.23-13.55.21:563][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_90.uasset (120200) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2017.04.23-13.55.21:567][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Plane.uasset (43121) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2017.04.23-13.55.21:569][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_QuadPyramid.uasset (43744) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2017.04.23-13.55.21:570][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Sphere.uasset (264634) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2017.04.23-13.55.21:572][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Torus.uasset (558042) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2017.04.23-13.55.21:575][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim.uasset (51867) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2017.04.23-13.55.21:576][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_In.uasset (74804) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2017.04.23-13.55.21:577][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset (75706) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2017.04.23-13.55.21:578][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_TriPyramid.uasset (41629) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2017.04.23-13.55.21:580][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Tube.uasset (190123) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2017.04.23-13.55.21:581][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_A.uasset (45020) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2017.04.23-13.55.21:582][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_B.uasset (40642) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2017.04.23-13.55.21:584][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_WideCapsule.uasset (150007) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2017.04.23-13.55.21:585][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2.uasset (446) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/Metal_Tile_2.uasset
+[2017.04.23-13.55.21:587][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2_N.uasset (450) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/Metal_Tile_2_N.uasset
+[2017.04.23-13.55.21:588][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048.uasset (446) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/Sky54a2048.uasset
+[2017.04.23-13.55.21:589][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048LDR.uasset (449) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/Sky54a2048LDR.uasset
+[2017.04.23-13.55.21:591][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01.uasset (450) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_ArmorMetal01.uasset
+[2017.04.23-13.55.21:592][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01_N.uasset (452) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset
+[2017.04.23-13.55.21:595][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_D.uasset (446) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Bark02_D.uasset
+[2017.04.23-13.55.21:596][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_N.uasset (446) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Bark02_N.uasset
+[2017.04.23-13.55.21:597][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset (455) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset
+[2017.04.23-13.55.21:598][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset (455) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset
+[2017.04.23-13.55.21:599][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (7649619) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2017.04.23-13.55.21:607][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (8326301) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2017.04.23-13.55.21:616][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (7553391) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2017.04.23-13.55.21:623][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset (6035708) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2017.04.23-13.55.21:630][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset (9201530) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2017.04.23-13.55.21:638][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset (7865847) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2017.04.23-13.55.21:646][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset (11424774) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2017.04.23-13.55.21:657][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset (7794699) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2017.04.23-13.55.21:665][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset (13386492) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2017.04.23-13.55.21:677][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset (6679434) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2017.04.23-13.55.21:684][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (7446677) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2017.04.23-13.55.21:692][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (6802269) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2017.04.23-13.55.21:700][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (8992435) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2017.04.23-13.55.21:709][  0]LogPackFactory: Content/StarterContent/Textures/T_Burst_M.uasset (150025) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Burst_M.uasset
+[2017.04.23-13.55.21:711][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_D.uasset (552540) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Bush_D.uasset
+[2017.04.23-13.55.21:713][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_N.uasset (396574) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Bush_N.uasset
+[2017.04.23-13.55.21:715][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset (277243) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2017.04.23-13.55.21:716][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset (228293) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2017.04.23-13.55.21:718][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_M.uasset (576769) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Chair_M.uasset
+[2017.04.23-13.55.21:719][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_N.uasset (1937145) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Chair_N.uasset
+[2017.04.23-13.55.21:722][  0]LogPackFactory: Content/StarterContent/Textures/T_Checker_Noise_M.uasset (158406) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2017.04.23-13.55.21:985][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_M.uasset (432) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Cliff_M.uasset
+[2017.04.23-13.55.21:986][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_N.uasset (432) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Cliff_N.uasset
+[2017.04.23-13.55.21:987][  0]LogPackFactory: Content/StarterContent/Textures/T_Cobble_01_H.uasset (449) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Cobble_01_H.uasset
+[2017.04.23-13.55.21:988][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleDark_01_D.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset
+[2017.04.23-13.55.21:990][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_D.uasset (454) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset
+[2017.04.23-13.55.21:991][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_N.uasset (454) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset
+[2017.04.23-13.55.21:992][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_R.uasset (454) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset
+[2017.04.23-13.55.21:993][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset (455) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset
+[2017.04.23-13.55.21:994][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset (11812314) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2017.04.23-13.55.22:004][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset (1313598) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2017.04.23-13.55.22:007][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset (11858728) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2017.04.23-13.55.22:018][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset (2936250) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2017.04.23-13.55.22:022][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset (2700400) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2017.04.23-13.55.22:027][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset (6603341) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2017.04.23-13.55.22:033][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset (5739577) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2017.04.23-13.55.22:040][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset (8846507) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2017.04.23-13.55.22:050][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_D.uasset (450) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete01_D.uasset
+[2017.04.23-13.55.22:052][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_N.uasset (450) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete01_N.uasset
+[2017.04.23-13.55.22:055][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_D.uasset (451) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_01_D.uasset
+[2017.04.23-13.55.22:058][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_N.uasset (451) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_01_N.uasset
+[2017.04.23-13.55.22:060][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_D.uasset (448) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_D.uasset
+[2017.04.23-13.55.22:062][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01.uasset (454) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Floor01.uasset
+[2017.04.23-13.55.22:063][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset (456) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset
+[2017.04.23-13.55.22:065][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Grime_D.uasset (10691506) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2017.04.23-13.55.22:076][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_N.uasset (448) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_N.uasset
+[2017.04.23-13.55.22:078][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_D.uasset (8513286) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2017.04.23-13.55.22:089][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_N.uasset (6558914) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2017.04.23-13.55.22:098][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_D.uasset (11600993) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2017.04.23-13.55.22:110][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_N.uasset (7452814) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2017.04.23-13.55.22:117][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset (4956380) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2017.04.23-13.55.22:123][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset (5759659) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2017.04.23-13.55.22:130][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset (6611650) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2017.04.23-13.55.22:137][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (4809) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2017.04.23-13.55.22:138][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Wall07.uasset
+[2017.04.23-13.55.22:140][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset (455) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset
+[2017.04.23-13.55.22:142][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_D.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset
+[2017.04.23-13.55.22:143][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_N.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset
+[2017.04.23-13.55.22:144][  0]LogPackFactory: Content/StarterContent/Textures/T_DesertCrystal01_N.uasset (455) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset
+[2017.04.23-13.55.22:145][  0]LogPackFactory: Content/StarterContent/Textures/T_Detail_Rocky_N.uasset (2850093) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2017.04.23-13.55.22:149][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_D.uasset (444) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Dirt_D.uasset
+[2017.04.23-13.55.22:150][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_N.uasset (444) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Dirt_N.uasset
+[2017.04.23-13.55.22:151][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_M.uasset (554190) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Door_M.uasset
+[2017.04.23-13.55.22:153][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_N.uasset (1074859) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Door_N.uasset
+[2017.04.23-13.55.22:155][  0]LogPackFactory: Content/StarterContent/Textures/T_Dust_Particle_D.uasset (32071) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2017.04.23-13.55.22:157][  0]LogPackFactory: Content/StarterContent/Textures/T_Explosion_SubUV.uasset (3004336) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2017.04.23-13.55.22:161][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_SubUV.uasset (525012) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2017.04.23-13.55.22:163][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_Tiled_D.uasset (553370) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2017.04.23-13.55.22:165][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_M.uasset (536068) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Frame_M.uasset
+[2017.04.23-13.55.22:166][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_N.uasset (1249187) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Frame_N.uasset
+[2017.04.23-13.55.22:169][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset (461) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset
+[2017.04.23-13.55.22:170][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset (463) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset
+[2017.04.23-13.55.22:172][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset (463) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset
+[2017.04.23-13.55.22:173][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset (463) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset
+[2017.04.23-13.55.22:175][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset (462) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset
+[2017.04.23-13.55.22:177][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset (464) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset
+[2017.04.23-13.55.22:178][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset (462) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset
+[2017.04.23-13.55.22:179][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset (464) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset
+[2017.04.23-13.55.22:180][  0]LogPackFactory: Content/StarterContent/Textures/T_Gradinet_01.uasset (5447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2017.04.23-13.55.22:181][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_D.uasset (425) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Gravel_D.uasset
+[2017.04.23-13.55.22:182][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_N.uasset (425) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Gravel_N.uasset
+[2017.04.23-13.55.22:183][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_D.uasset (449) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_01_D.uasset
+[2017.04.23-13.55.22:184][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_N.uasset (449) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_01_N.uasset
+[2017.04.23-13.55.22:186][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_D.uasset (449) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_02_D.uasset
+[2017.04.23-13.55.22:187][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_N.uasset (449) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_02_N.uasset
+[2017.04.23-13.55.22:189][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Detail_N.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_Detail_N.uasset
+[2017.04.23-13.55.22:190][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_D.uasset (451) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset
+[2017.04.23-13.55.22:192][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_N.uasset (451) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset
+[2017.04.23-13.55.22:193][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_D.uasset (12014827) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2017.04.23-13.55.22:204][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_N.uasset (11617917) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2017.04.23-13.55.22:215][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_D.uasset (10627659) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2017.04.23-13.55.22:225][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_N.uasset (7408581) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2017.04.23-13.55.22:233][  0]LogPackFactory: Content/StarterContent/Textures/T_ground_Moss_D.uasset (13034653) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2017.04.23-13.55.22:245][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Moss_N.uasset (8389816) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2017.04.23-13.55.22:254][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Noise_N.uasset (431) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Ground_Noise_N.uasset
+[2017.04.23-13.55.22:255][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_M.uasset (781809) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2017.04.23-13.55.22:257][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_N.uasset (2076923) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2017.04.23-13.55.22:260][  0]LogPackFactory: Content/StarterContent/Textures/T_MacroVariation.uasset (10882792) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2017.04.23-13.55.22:270][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset (9680629) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2017.04.23-13.55.22:280][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Copper_D.uasset (8854788) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2017.04.23-13.55.22:292][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset (460) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset
+[2017.04.23-13.55.22:293][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset (460) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset
+[2017.04.23-13.55.22:294][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_D.uasset (8838906) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2017.04.23-13.55.22:303][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_N.uasset (2813572) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2017.04.23-13.55.22:307][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_D.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset
+[2017.04.23-13.55.22:309][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_N.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset
+[2017.04.23-13.55.22:310][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_D.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset
+[2017.04.23-13.55.22:312][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_N.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset
+[2017.04.23-13.55.22:314][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset (456) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset
+[2017.04.23-13.55.22:315][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset (456) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset
+[2017.04.23-13.55.22:317][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset
+[2017.04.23-13.55.22:318][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset
+[2017.04.23-13.55.22:319][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_D.uasset (9329320) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2017.04.23-13.55.22:328][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_N.uasset (7504761) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2017.04.23-13.55.22:335][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset
+[2017.04.23-13.55.22:337][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset (453) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset
+[2017.04.23-13.55.22:339][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_D.uasset (3581726) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2017.04.23-13.55.22:343][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_N.uasset (4922590) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2017.04.23-13.55.22:351][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset (456) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset
+[2017.04.23-13.55.22:353][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset (456) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset
+[2017.04.23-13.55.22:354][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01.uasset (452) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_PaintedMetal01.uasset
+[2017.04.23-13.55.22:355][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01_N.uasset (454) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset
+[2017.04.23-13.55.22:356][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_D.uasset (451) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_PatchyGrass_D.uasset
+[2017.04.23-13.55.22:357][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_N.uasset (451) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_PatchyGrass_N.uasset
+[2017.04.23-13.55.22:359][  0]LogPackFactory: Content/StarterContent/Textures/T_Perlin_Noise_M.uasset (7869402) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2017.04.23-13.55.22:365][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_D.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_01_D.uasset
+[2017.04.23-13.55.22:366][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_N.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_01_N.uasset
+[2017.04.23-13.55.22:368][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_D.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_03_D.uasset
+[2017.04.23-13.55.22:369][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_N.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_03_N.uasset
+[2017.04.23-13.55.22:370][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_D.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_05_D.uasset
+[2017.04.23-13.55.22:371][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_N.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_05_N.uasset
+[2017.04.23-13.55.22:372][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_D.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_06_D.uasset
+[2017.04.23-13.55.22:373][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_N.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_06_N.uasset
+[2017.04.23-13.55.22:374][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_D.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_07_D.uasset
+[2017.04.23-13.55.22:375][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_N.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_07_N.uasset
+[2017.04.23-13.55.22:376][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07b_D.uasset (448) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_07b_D.uasset
+[2017.04.23-13.55.22:377][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_D.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_08_D.uasset
+[2017.04.23-13.55.22:379][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_N.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_08_N.uasset
+[2017.04.23-13.55.22:380][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_09_D.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_09_D.uasset
+[2017.04.23-13.55.22:381][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_D.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_10_D.uasset
+[2017.04.23-13.55.22:382][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_N.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_10_N.uasset
+[2017.04.23-13.55.22:383][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_11b_D.uasset (448) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_11b_D.uasset
+[2017.04.23-13.55.22:385][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_D.uasset (9359943) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2017.04.23-13.55.22:395][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_N.uasset (7847129) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2017.04.23-13.55.22:402][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset (454) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset
+[2017.04.23-13.55.22:403][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset (454) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset
+[2017.04.23-13.55.22:404][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset (454) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset
+[2017.04.23-13.55.22:405][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset (5327483) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2017.04.23-13.55.22:411][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset (9234423) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2017.04.23-13.55.22:420][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset (8399811) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2017.04.23-13.55.22:429][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_D.uasset (12333988) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2017.04.23-13.55.22:442][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_N.uasset (9649859) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2017.04.23-13.55.22:452][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (8829490) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2017.04.23-13.55.22:461][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_M.uasset (2706973) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2017.04.23-13.55.22:465][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_N.uasset (5375053) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2017.04.23-13.55.22:471][  0]LogPackFactory: Content/StarterContent/Textures/T_Rocky_01_N.uasset (448) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Rocky_01_N.uasset
+[2017.04.23-13.55.22:473][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_M.uasset (651298) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2017.04.23-13.55.22:476][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_N.uasset (1639501) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2017.04.23-13.55.22:478][  0]LogPackFactory: Content/StarterContent/Textures/T_Single_Tile_N.uasset (6402) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2017.04.23-13.55.22:479][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Clouds_M.uasset (450) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset
+[2017.04.23-13.55.22:480][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Stars.uasset (447) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Sky_Stars.uasset
+[2017.04.23-13.55.22:481][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_SubUV.uasset (2630744) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2017.04.23-13.55.22:484][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset (91431) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2017.04.23-13.55.22:486][  0]LogPackFactory: Content/StarterContent/Textures/T_Spark_Core.uasset (162316) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2017.04.23-13.55.22:487][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_M.uasset (546786) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Statue_M.uasset
+[2017.04.23-13.55.22:489][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_N.uasset (515360) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Statue_N.uasset
+[2017.04.23-13.55.22:491][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_D.uasset (451) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Stone_Brick_D.uasset
+[2017.04.23-13.55.22:492][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_N.uasset (451) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Stone_Brick_N.uasset
+[2017.04.23-13.55.22:494][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_M.uasset (870486) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2017.04.23-13.55.22:495][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_N.uasset (1549086) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2017.04.23-13.55.22:498][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_M.uasset (107174) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2017.04.23-13.55.22:500][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_N.uasset (202333) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2017.04.23-13.55.22:501][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset (793459) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2017.04.23-13.55.22:503][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset (493875) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2017.04.23-13.55.22:505][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_M.uasset (979689) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2017.04.23-13.55.22:507][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_N.uasset (1860674) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2017.04.23-13.55.22:511][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset (461) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset
+[2017.04.23-13.55.22:512][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset (461) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset
+[2017.04.23-13.55.22:514][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02.uasset (452) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_UNV_Concrete02.uasset
+[2017.04.23-13.55.22:515][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset (454) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset
+[2017.04.23-13.55.22:516][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_M.uasset (1696467) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Water_M.uasset
+[2017.04.23-13.55.22:519][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_N.uasset (2087420) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Water_N.uasset
+[2017.04.23-13.55.22:521][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset (459) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset
+[2017.04.23-13.55.22:530][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset (459) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset
+[2017.04.23-13.55.22:531][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_a_d.uasset (446) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_a_d.uasset
+[2017.04.23-13.55.22:532][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_N.uasset (446) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_A_N.uasset
+[2017.04.23-13.55.22:534][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_S.uasset (446) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_A_S.uasset
+[2017.04.23-13.55.22:535][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (4584206) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2017.04.23-13.55.22:540][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (3940729) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2017.04.23-13.55.22:545][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (2858538) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2017.04.23-13.55.22:549][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_D.uasset (6707252) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2017.04.23-13.55.22:555][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_N.uasset (6245295) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2017.04.23-13.55.22:562][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_D.uasset (9690724) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2017.04.23-13.55.22:571][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_N.uasset (3467174) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2017.04.23-13.55.22:576][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_D.uasset (6509713) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2017.04.23-13.55.22:582][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_N.uasset (3836013) -> G:/UnrealEngine/QuickStart/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2017.04.23-13.55.22:587][  0]LogPackFactory: Finished extracting 750 files (including 0 errors).
+[2017.04.23-13.55.23:088][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Fram

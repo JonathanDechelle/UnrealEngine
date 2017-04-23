@@ -1,0 +1,13 @@
+*.dll
+
+*.pdb
+
+Build
+*.bin
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.vcxproj
+*.filters
+*.user
